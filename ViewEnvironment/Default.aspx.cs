@@ -36,6 +36,7 @@ public partial class _Default : System.Web.UI.Page
         lblInstanceStart.Text = CurrentEnvironment.Uptime;
         lblBoundServices.Text = CurrentEnvironment.BoundServices.ToString();
         lblDbEngine.Text = CurrentEnvironment.DbEngine.ToString();
+        lblAppD.Text = CurrentEnvironment.AppDNodeName;
 
         // if a database service is bound, show the attendees
         if (CurrentEnvironment.hasDbConnection)

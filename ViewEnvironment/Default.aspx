@@ -93,6 +93,10 @@
                             The detected DB engine is <em>
                                 <asp:Label ID="lblDbEngine" runat="server"></asp:Label></em>
                         </p>
+                        <p>
+                            The detected AppD Node Name is <em>
+                                <asp:Label ID="lblAppD" runat="server"></asp:Label></em>
+                        </p>
                     </div>
                     <hr />
                 </div>

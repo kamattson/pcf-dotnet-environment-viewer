@@ -89,6 +89,14 @@ public class CurrentEnvironment
     }
 
     /// <summary>
+    /// The AppD node name
+    /// </summary>
+    public static string AppDNodeName
+    {
+        get { return Environment.GetEnvironmentVariable("APPDYNAMICS_AGENT_NODE_NAME"); }
+    }
+
+    /// <summary>
     /// The instance GUID Cloud Foundry assigned to this app instance.
     /// </summary>
     public static string InstanceID
